@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.calculateaverage.AverageTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE!
+com.mycompany.calculateaverage.AverageTest.testCalculateAverage()  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.mycompany.calculateaverage.Average.calculateAverage
+	at com.mycompany.calculateaverage.AverageTest.testCalculateAverage(AverageTest.java:66)
+
+com.mycompany.calculateaverage.AverageTest.testMain()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: com.mycompany.calculateaverage.Average.main
+	at com.mycompany.calculateaverage.AverageTest.testMain(AverageTest.java:79)
+
